@@ -1,11 +1,10 @@
 import { Container } from './styles'
 import reactIcon from '../../assets/react-icon.svg'
-import linkedin from '../../assets/linkedin.svg'
-import githubIcon from '../../assets/github.svg'
-import whatsapp from '../../assets/whatsapp.svg'
-import telegram from '../../assets/telegram.svg'
-import instagramIcon from '../../assets/instagram.svg'
-// import discordIcon from '../../assets/discord.png'
+import linkedin from '../../assets/linkedin.png'
+import githubIcon from '../../assets/github.png'
+import facebook from '../../assets/facebook (1).png'
+import twitter from '../../assets/twitter.png'
+import telegram from '../../assets/telegram.png'
 
 export function Footer() {
   return (
@@ -22,39 +21,39 @@ export function Footer() {
       </div>
       <div className="social-media">
         <a
-          href="https://www.linkedin.com/in/codevinayak"
+          href="https://www.linkedin.com/in/md-torikulislam"
           target="_blank"
           rel="noreferrer"
         >
           <img src={linkedin} alt="Linkedin" />
         </a>
         <a
-          href="https://github.com/CodeVinayak/"
+          href="https://github.com/torikulislamv3"
           target="_blank"
           rel="noreferrer"
         >
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
-          href="https://api.whatsapp.com/send/?phone=%2B919630576848&text=Hello+Vinayak"
+          href="https://www.facebook.com/mdtorikulislamtamim/"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={whatsapp} alt="Whatsapp" />
+          <img src={facebook} alt="facebook" />
         </a>
         <a
-          href="https://t.me/CodeVinayak"
+          href="https://x.com/TorikulIsl2041"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={twitter} alt="twitter" />
+        </a>
+        <a
+          href="https://t.me/torikul567"
           target="_blank"
           rel="noreferrer"
         >
           <img src={telegram} alt="telegram" />
-        </a>
-        <a
-          href="https://www.instagram.com/vinayaksingh.in"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={instagramIcon} alt="Instagram" />
         </a>
       </div>
     </Container>
