@@ -9,9 +9,8 @@ import telegram from '../../assets/telegram.png'
 export function Footer() {
   return (
     <Container className="footer">
-      <a href="https://vinayaksingh.in" className="logo">
-        <span>www.vinayak</span>
-        <span>singh.in</span>
+      <a href="https://github.com/torikulislamv3" className="logo">
+        <span className='text-blue-600'>Let's Go</span>
       </a>
       <div>
         <p>

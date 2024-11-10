@@ -38,10 +38,10 @@ export function Form() {
       // Send form data using emailjs
       emailjs
         .sendForm(
-          'service_erpitod',           // Replace with your EmailJS Service ID
-          'template_ei1cb8m',          // Replace with your EmailJS Template ID
-          form.current,                // Reference to the form
-          'wki1KZiq3aZf1IJZc'         // Replace with your public key (User ID is not needed here)
+          'service_erpitod',  
+          'template_ei1cb8m',       
+          form.current,              
+          'wki1KZiq3aZf1IJZc'     
         )
         .then(
           () => {
