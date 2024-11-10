@@ -11,7 +11,7 @@ export function Project() {
       <div className="projects">
 
 {/* project-1 */}
-        <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation animateIn="zoomIn">
           <div className="project">
             <div >
               <img height={'150px'} width={'100%'} src="https://i.postimg.cc/nVWDtJLf/Screenshot-2024-11-10-142957.png" alt="teamProject" />
@@ -36,7 +36,7 @@ export function Project() {
         </ScrollAnimation>
 
 {/* project-2 */}
-<ScrollAnimation animateIn="flipInX">
+<ScrollAnimation animateIn="zoomIn">
           <div className="project">
             <div >
               <img height={'150px'} width={'100%'} src="https://i.postimg.cc/PrRb5DrJ/Screenshot-2024-11-10-155403.png" alt="Amimals pro" />
@@ -61,7 +61,7 @@ export function Project() {
         </ScrollAnimation>
 
 {/* project-3 */}
-<ScrollAnimation animateIn="flipInX">
+<ScrollAnimation animateIn="zoomIn">
           <div className="project">
             <div >
               <img height={'150px'} width={'100%'} src="https://i.postimg.cc/Kv27kbnS/Screenshot-2024-11-10-162447.png" alt="Fabric House" />
@@ -86,7 +86,7 @@ export function Project() {
         </ScrollAnimation>
 
 {/* project-4 */}
-<ScrollAnimation animateIn="flipInX">
+<ScrollAnimation animateIn="zoomIn">
           <div className="project">
             <div >
               <img height={'150px'} width={'100%'} src="https://i.postimg.cc/SKFmqgBr/Screenshot-2024-11-10-162938.png" alt="Alfa-Doc" />
@@ -111,7 +111,7 @@ export function Project() {
         </ScrollAnimation>
 
 {/* project-5 */}
-<ScrollAnimation animateIn="flipInX">
+<ScrollAnimation animateIn="zoomIn">
           <div className="project">
             <div >
               <img height={'150px'} width={'100%'} src="https://i.postimg.cc/X79bLfGB/Screenshot-2024-11-10-163314.png" alt="Alfa-Doc" />
@@ -135,7 +135,7 @@ export function Project() {
           </div>
         </ScrollAnimation>
 {/* project-6 */}
-<ScrollAnimation animateIn="flipInX">
+<ScrollAnimation animateIn="zoomIn">
           <div className="project">
             <div >
               <img height={'150px'} width={'100%'} src="https://i.postimg.cc/Jz6MH1Hp/Screenshot-2024-11-10-163910.png" alt="Digital-Clock" />
@@ -159,7 +159,7 @@ export function Project() {
           </div>
         </ScrollAnimation>
         {/* Project-7 */}
-        <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation animateIn="zoomIn">
           <div className="project">
             <div >
               <img height={'150px'} width={'100%'} src="https://i.postimg.cc/V6yyX5fW/Screenshot-2024-11-10-164401.png" alt="Simple-Calculator" />
