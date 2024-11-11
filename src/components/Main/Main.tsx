@@ -4,17 +4,20 @@ import { Hero } from "../Hero/Hero";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
-import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
+// import wordpress from "../../assets/wordpress.svg";
+// import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
-import sassIcon from "../../assets/sass-icon.svg";
+// import sassIcon from "../../assets/sass-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
-import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import firebase from "../../assets/firebase.png";
+import materialUi from "../../assets/materialui.png";
+import express from "../../assets/expressjs.png";
+// import vueIcon from "../../assets/vue-icon.svg";
+// import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import Education from "../Education/Education";
 
 export function Main() {
@@ -150,7 +153,7 @@ export function Main() {
               },
               "image": [
                 {
-                  "src": boostrapIcon,
+                  "src": firebase,
                   "width": 20,
                   "height": 20
                 },
@@ -160,12 +163,12 @@ export function Main() {
                   "height": 20
                 },
                 {
-                  "src": wordpress,
+                  "src": materialUi,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": shopify,
+                  "src": express,
                   "width": 20,
                   "height": 20
                 },
@@ -194,11 +197,11 @@ export function Main() {
                   "width": 20,
                   "height": 20
                 },
-                {
-                  "src": sassIcon,
-                  "width": 20,
-                  "height": 20
-                },
+                // {
+                //   "src": sassIcon,
+                //   "width": 20,
+                //   "height": 20
+                // },
                 {
                   "src": typescriptIcon,
                   "width": 20,
@@ -209,11 +212,11 @@ export function Main() {
                 //   "width": 20,
                 //   "height": 20
                 // },
-                {
-                  "src": vueIcon,
-                  "width": 20,
-                  "height": 20
-                },
+                // {
+                //   "src": vueIcon,
+                //   "width": 20,
+                //   "height": 20
+                // },
 
               ],
               "polygon": {

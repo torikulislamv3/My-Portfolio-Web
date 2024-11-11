@@ -1,7 +1,6 @@
 import { BrowserRouter } from "react-router-dom"
 import { Container } from "./styles"
 import ScrollAnimation from "react-animate-on-scroll"
-import Illustration from "../../assets/illustration.svg"
 import { NavHashLink } from "react-router-hash-link"
 import linkedin from '../../assets/linkedin.png'
 import githubIcon from '../../assets/github.png'
@@ -71,7 +70,7 @@ export function Hero() {
       </div>
       <div className="hero-image">
         <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
-          <img src={Illustration} alt="Ilustração" />
+          <img src='https://i.pinimg.com/originals/81/17/8b/81178b47a8598f0c81c4799f2cdd4057.gif' alt="Ilustração" />
         </ScrollAnimation>
       </div>
     </Container>
