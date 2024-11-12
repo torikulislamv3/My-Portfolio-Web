@@ -4,6 +4,7 @@ import { useEffect, useState, useRef } from 'react'
 import validator from 'validator'
 import emailjs from 'emailjs-com'
 import { ValidationError } from '@formspree/react'
+import ScrollAnimation from 'react-animate-on-scroll'
 
 export function Form() {
   const [validEmail, setValidEmail] = useState(false)
@@ -103,7 +104,8 @@ export function Form() {
   }
 
   return (
-    <Container>
+    <ScrollAnimation animateIn="zoomIn">
+      <Container>
       <h2>Get in touch using the form</h2>
       <form ref={form} onSubmit={sendEmail}>
         <input
@@ -145,5 +147,6 @@ export function Form() {
       </form>
       <ToastContainer />
     </Container>
+    </ScrollAnimation>
   )
 }
