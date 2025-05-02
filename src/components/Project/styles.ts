@@ -9,20 +9,6 @@ export const Container = styled.section`
     font-size: 4rem;
     margin-bottom: 3rem;
   }
-  .project {
-  position: relative;
-}
-
-.project-links {
-  position: absolute;
-  bottom: 10px; /* 10px from the bottom of the card */
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: space-between; /* Align links horizontally */
-  padding: 0 10px; /* Optional, for some padding inside */
-}
-
   .projects{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -50,7 +36,8 @@ export const Container = styled.section`
         align-items: center;
         justify-content: space-between;
         color: var(--blue);
-        margin-bottom: 3.6rem;
+        position: relative;
+        padding-bottom: 10px; 
         .project-links{
           display: flex;
           align-items: center;
