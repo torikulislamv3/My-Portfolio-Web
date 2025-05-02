@@ -35,6 +35,31 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
+{/*         New project-1 */}
+
+        <ScrollAnimation animateIn="zoomIn">
+<div className="project">
+<div >
+<img height={'150px'} width={'100%'} src="https://i.postimg.cc/jjYDrHzK/Screenshot-2025-05-03-013245.png" alt="loading..." />
+</div>
+<div className="body">
+<h3>DoctorHall - Full Stack Project</h3>
+<p>**Doctor Hall** is a modern healthcare web application that connects patients with doctors. Users can book appointments, access medical history, and consult doctors online. It ensures a smooth and secure experience using powerful backend features and user-friendly interface.
+ </p>
+</div>
+<header>
+<div title="live project">
+<a href="https://doctor-frontend-v2x6.onrender.com/" target="_blank" rel="noreferrer">
+<img src={liveServer} alt="Visit site" /></a>
+</div>
+<div className="project-links">
+<a title="github repo" href="https://github.com/torikulislamv3/DoctorHall" target="_blank" rel="noreferrer">
+<img src={githubIcon} alt="Visit site" /></a>
+ </div>
+</header>
+</div>
+</ScrollAnimation>
+
 {/* project-2 */}
 <ScrollAnimation animateIn="zoomIn">
           <div className="project">
