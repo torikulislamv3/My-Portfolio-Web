@@ -18,6 +18,7 @@ export const Container = styled.section`
     overflow: hidden;
 
     .project{
+    position: relative;
       padding: 2rem 1.8rem;
       background-color: #2b2b2b;
       border-radius: 1.2rem;
